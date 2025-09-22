@@ -1,7 +1,7 @@
 ## Esquema sobre la organizaion de las carpetas
 Esquema generalizado sobre el flujo que tendran las carpetas, y como se trabajaran con ellas
 
-```mermaid
+```
 /tu-proyecto-shazam-movies         # Carpeta principal del proyecto
 ├── /backend                        # Contiene todo el código del servidor
 │   ├── /api                        # Lógica de la API (Flask)
