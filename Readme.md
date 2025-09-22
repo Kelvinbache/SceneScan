@@ -1,6 +1,6 @@
 ## Flujo de trabajo que tendra la aplicacion 
 
-```
+```mermaid
 graph TD
     A[Usuario inicia la aplicación] --> B[Usuario graba o sube video]
     B --> C[Flutter envía el video al servidor]
