@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Home/home.dart';
+import 'package:scene_scan/App_style.dart';
+import 'package:scene_scan/screens/Home_screens.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,11 +11,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Home(),
+        appBar: AppBar(
+          backgroundColor: AppStyle.backgroundColor,
         ),
+        backgroundColor: AppStyle.backgroundColor,
+        body: HomeScreens(),
+
       ),
     );
   }
